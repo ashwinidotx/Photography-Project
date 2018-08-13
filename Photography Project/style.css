@@ -1,0 +1,213 @@
+
+
+body {			padding: 5px 5px 5px 5px;
+                background-color: #000;
+                background-image: url("15.jpg");
+                background-repeat: no-repeat;
+    			background-attachment: fixed;
+            }
+            .fly-in-text {
+                list-style: none;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+            .fly-in-text li {
+                display: inline-block;
+                margin-right: 50px;
+                font-family: Open Sans, Arial;
+                font-weight: 300;
+                font-size: 4em;
+                color: #fff;
+                opacity: 1;
+                transition: all 2.5s ease;
+            }
+            .fly-in-text li:last-child {
+                margin-right: 0;
+            }
+            .fly-in-text.hidden li {
+                opacity: 0;
+            }
+
+header {
+
+	opacity: 0.5%;
+	padding: 5px 15px 15px 15px;
+}
+
+
+
+
+
+.fly-in-text.hidden li {
+                opacity: 0;
+            }
+            .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+            .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+            .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+            
+nav ul {
+	margin 0;
+	display: inline;
+}
+
+nav ul li {
+	font-size: 23px;
+	background: green;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 2px #111;
+
+}
+nav ul li:hover {
+	    opacity: 1.0;
+    filter: alpha(opacity=100); 
+
+}
+
+.cente {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+div.gallery {
+	padding: 2px;
+    margin: 10px 35px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 360px;
+    opacity: 0.9;
+}
+
+div.gallery:hover {
+    border: 2px solid #777;
+    opacity: 1.0;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+div.galleryth:hover {
+    border: 2px solid #777;
+    opacity: 0.2;
+}
+div.galleryth img {
+    width: 100%;
+    height: auto;
+}
+div.galleryth {
+	padding: 2px;
+    margin: 10px 35px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 360px;
+    opacity: 0.9;
+}
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-image: url("bg.jpg");
+  padding-bottom: 0.1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+.detail{
+	background-color:#222;
+	opacity: 0.7;
+	padding-left: 10px;
+}
+
+
+.pic
+{
+	padding: 2px;
+    margin: 5px;
+   	border: 2px solid #ccc;	
+    float: center;
+    width: 360px;
+    opacity: 0.9;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+
+}
+ a {
+ 	color: #BDF9F6;
+ }
+
+
+ .anime{
+ 	animation: fadein 1s ease-in;
+ }
+
+ @keyframes fadein {
+ 	from {
+ 		opacity: 0;
+ 	}
+ 	to {
+ 		opacity: 0.5;
+ 	}
+
+ }
+
+ .animefront{
+ 	animation: fadein 2s ease-in;
+ }
+
+ @keyframes fadein {
+ 	from {
+ 		opacity: 0;
+ 	}
+ 	to {
+ 		opacity: 0.5;
+ 	}
+
+ }
